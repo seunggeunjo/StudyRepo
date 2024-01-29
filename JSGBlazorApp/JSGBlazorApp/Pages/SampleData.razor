@@ -1,0 +1,28 @@
+﻿@page "/sampledata"
+
+@using JSGBlazorApp.Helpers
+@inject DatabaseViz databaseViz
+
+<h1>테스트 페이지 입니다.</h1>
+<p>이것은 테스트 페이지야..</p>
+
+
+@code {
+    //private WeatherForecast[] forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+
+
+        var result = DatabaseViz.Core.CallQuery("dbo.COA_CommonLogin", new Dictionary<string, object>
+        {
+            { "@p_EmployeeId", "222010045" },
+            { "@p_Password"  , "a26490319!"},
+        });
+
+        var resultItem = ConvertTableHelper.Instance.ConvertDataTable(result.Table[0]).Rows[0];
+
+
+    }
+}

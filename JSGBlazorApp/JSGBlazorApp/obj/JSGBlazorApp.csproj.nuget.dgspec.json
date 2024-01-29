@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\07. Development\\01. Source\\07. Git\\99. Study\\JSGBlazorApp\\JSGBlazorApp\\JSGBlazorApp.csproj": {}
+  },
+  "projects": {
+    "D:\\07. Development\\01. Source\\07. Git\\99. Study\\JSGBlazorApp\\JSGBlazorApp\\JSGBlazorApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\07. Development\\01. Source\\07. Git\\99. Study\\JSGBlazorApp\\JSGBlazorApp\\JSGBlazorApp.csproj",
+        "projectName": "JSGBlazorApp",
+        "projectPath": "D:\\07. Development\\01. Source\\07. Git\\99. Study\\JSGBlazorApp\\JSGBlazorApp\\JSGBlazorApp.csproj",
+        "packagesPath": "C:\\Users\\seunggeunjo\\.nuget\\packages\\",
+        "outputPath": "D:\\07. Development\\01. Source\\07. Git\\99. Study\\JSGBlazorApp\\JSGBlazorApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\DEV\\IDE_TOOLS\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\seunggeunjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/drKR55YzNdCZ1CVWlMcbZks4RtJz36uMttDlycWpf2w2kEjeIK/api": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MessagePack": {
+              "target": "Package",
+              "version": "[2.5.140, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
