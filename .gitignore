@@ -1,0 +1,6 @@
+**/bin/
+**/obj/
+**/packages/
+**/.vs/
+JSGBlazorApp/JSGBlazorApp/bin
+JSGBlazorApp/JSGBlazorApp/obj
